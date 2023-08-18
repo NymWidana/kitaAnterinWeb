@@ -186,7 +186,7 @@ const partnersandsupplies = [
         </div>
         <img
           class="h-72 md:h-96 -mt-48 md:-ml-8 z-10 md:h7/8"
-          src="../assets/pngwing 14.png"
+          src="../assets/petani.png"
           alt="farmer"
         />
       </div>
