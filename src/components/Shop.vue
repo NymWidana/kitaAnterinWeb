@@ -192,7 +192,7 @@ function paginatedProducts() {
           >
             <li v-for="nav in navs">
               <router-link
-                :to="nav.urlGambar"
+                :to="nav.url"
                 class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0"
                 >{{ nav.teks }}</router-link
               >
