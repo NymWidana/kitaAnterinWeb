@@ -25,97 +25,97 @@ function myFunction() {
 const products = [
   {
     name: "Sayur lokal / local vegies",
-    url: "./src/assets/wortel.png",
+    urlGambar:new URL( "./src/assets/wortel.png", import.meta.url).href,
     category: "vegetables",
     price: 12850,
   },
   {
     name: "buah lokal / local fruits",
-    url: "./src/assets/wortel.png",
+    urlGambar:new URL( "./src/assets/wortel.png", import.meta.url).href,
     category: "fruits",
     price: 12850,
   },
   {
     name: "daging lokal / local meats",
-    url: "./src/assets/wortel.png",
+    urlGambar:new URL( "./src/assets/wortel.png", import.meta.url).href,
     category: "meats",
     price: 12850,
   },
   {
     name: "obat lokal / local herbs",
-    url: "./src/assets/wortel.png",
+    urlGambar:new URL( "./src/assets/wortel.png", import.meta.url).href,
     category: "herbs",
     price: 12850,
   },
   {
     name: "seafood lokal / local seafoods",
-    url: "./src/assets/wortel.png",
+    urlGambar:new URL( "./src/assets/wortel.png", import.meta.url).href,
     category: "seafoods",
     price: 12850,
   },
   {
     name: "Wortel lokal / local carrot",
-    url: "./src/assets/wortel.png",
+    urlGambar:new URL( "./src/assets/wortel.png", import.meta.url).href,
     category: "others",
     price: 12850,
   },
   {
     name: "Sayur lokal / local vegies",
-    url: "./src/assets/wortel.png",
+    urlGambar:new URL( "./src/assets/wortel.png", import.meta.url).href,
     category: "vegetables",
     price: 12850,
   },
   {
     name: "buah lokal / local fruits",
-    url: "./src/assets/wortel.png",
+    urlGambar:new URL( "./src/assets/wortel.png", import.meta.url).href,
     category: "fruits",
     price: 12850,
   },
   {
     name: "daging lokal / local meats",
-    url: "./src/assets/wortel.png",
+    urlGambar:new URL( "./src/assets/wortel.png", import.meta.url).href,
     category: "meats",
     price: 12850,
   },
   {
     name: "obat lokal / local herbs",
-    url: "./src/assets/wortel.png",
+    urlGambar:new URL( "./src/assets/wortel.png", import.meta.url).href,
     category: "herbs",
     price: 12850,
   },
   {
     name: "seafood lokal / local seafoods",
-    url: "./src/assets/wortel.png",
+    urlGambar:new URL( "./src/assets/wortel.png", import.meta.url).href,
     category: "seafoods",
     price: 12850,
   },
   {
     name: "Wortel lokal / local carrot",
-    url: "./src/assets/wortel.png",
+    urlGambar:new URL( "./src/assets/wortel.png", import.meta.url).href,
     category: "others",
     price: 12850,
   },
   {
     name: "Sayur lokal / local vegies",
-    url: "./src/assets/wortel.png",
+    urlGambar:new URL( "./src/assets/wortel.png", import.meta.url).href,
     category: "vegetables",
     price: 12850,
   },
   {
     name: "Sayur lokal / local vegies",
-    url: "./src/assets/wortel.png",
+    urlGambar:new URL( "./src/assets/wortel.png", import.meta.url).href,
     category: "vegetables",
     price: 12850,
   },
   {
     name: "Sayur lokal / local vegies",
-    url: "./src/assets/wortel.png",
+    urlGambar:new URL( "./src/assets/wortel.png", import.meta.url).href,
     category: "vegetables",
     price: 12850,
   },
   {
     name: "Wortel lokal / local carrot",
-    url: "./src/assets/wortel.png",
+    urlGambar:new URL( "./src/assets/wortel.png", import.meta.url).href,
     category: "others",
     price: 12850,
   },
@@ -192,7 +192,7 @@ function paginatedProducts() {
           >
             <li v-for="nav in navs">
               <router-link
-                :to="nav.url"
+                :to="nav.urlGambar"
                 class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0"
                 >{{ nav.teks }}</router-link
               >
@@ -259,7 +259,7 @@ function paginatedProducts() {
           />
           <div>
             <img
-              :src="product.url"
+              :src="product.urlGambar"
               class="mx-auto"
               :alt="'gambar ' + product.name"
             />

@@ -24,71 +24,71 @@ function myFunction() {
 const partnersandsupplies = [
   {
     name: "jendranathlogo",
-    urlgambar: "./src/assets/logopartnersandsupplies/jendranathlogo.png",
+    urlgambar:new URL( "./src/assets/logopartnersandsupplies/jendranathlogo.png", import.meta.url).href,
   },
   {
     name: "ragamlogo",
-    urlgambar: "./src/assets/logopartnersandsupplies/ragamlogo.png",
+    urlgambar:new URL( "./src/assets/logopartnersandsupplies/ragamlogo.png", import.meta.url).href,
   },
   {
     name: "kinlogo",
-    urlgambar: "./src/assets/logopartnersandsupplies/kinlogo.png",
+    urlgambar:new URL( "./src/assets/logopartnersandsupplies/kinlogo.png", import.meta.url).href,
   },
   {
     name: "bagibaginasilogo",
-    urlgambar: "./src/assets/logopartnersandsupplies/bagibaginasilogo.png",
+    urlgambar:new URL( "./src/assets/logopartnersandsupplies/bagibaginasilogo.png", import.meta.url).href,
   },
   {
     name: "letspikniklogo",
-    urlgambar: "./src/assets/logopartnersandsupplies/letspikniklogo.png",
+    urlgambar:new URL( "./src/assets/logopartnersandsupplies/letspikniklogo.png", import.meta.url).href,
   },
   {
     name: "awanibalilogo",
-    urlgambar: "./src/assets/logopartnersandsupplies/awanibalilogo.png",
+    urlgambar:new URL( "./src/assets/logopartnersandsupplies/awanibalilogo.png", import.meta.url).href,
   },
   {
     name: "yellowskyhlogo",
-    urlgambar: "./src/assets/logopartnersandsupplies/yellowskylogo.png",
+    urlgambar:new URL( "./src/assets/logopartnersandsupplies/yellowskylogo.png", import.meta.url).href,
   },
   {
     name: "electricwheellogo",
-    urlgambar: "./src/assets/logopartnersandsupplies/electricwheellogo.png",
+    urlgambar:new URL( "./src/assets/logopartnersandsupplies/electricwheellogo.png", import.meta.url).href,
   },
   {
     name: "ideplogo",
-    urlgambar: "./src/assets/logopartnersandsupplies/ideplogo.png",
+    urlgambar:new URL( "./src/assets/logopartnersandsupplies/ideplogo.png", import.meta.url).href,
   },
   {
     name: "kalanayalogo",
-    urlgambar: "./src/assets/logopartnersandsupplies/kalanayalogo.png",
+    urlgambar:new URL( "./src/assets/logopartnersandsupplies/kalanayalogo.png", import.meta.url).href,
   },
   {
     name: "thecocoongardenlogo",
-    urlgambar: "./src/assets/logopartnersandsupplies/thecocoongardenlogo.png",
+    urlgambar:new URL( "./src/assets/logopartnersandsupplies/thecocoongardenlogo.png", import.meta.url).href,
   },
   {
     name: "thehulalogo",
-    urlgambar: "./src/assets/logopartnersandsupplies/thehulalogo.png",
+    urlgambar:new URL( "./src/assets/logopartnersandsupplies/thehulalogo.png", import.meta.url).href,
   },
   {
     name: "ipbilogo",
-    urlgambar: "./src/assets/logopartnersandsupplies/ipbilogo.png",
+    urlgambar:new URL( "./src/assets/logopartnersandsupplies/ipbilogo.png", import.meta.url).href,
   },
   {
     name: "hazelcrumbslogo",
-    urlgambar: "./src/assets/logopartnersandsupplies/hazelcrumbslogo.png",
+    urlgambar:new URL( "./src/assets/logopartnersandsupplies/hazelcrumbslogo.png", import.meta.url).href,
   },
   {
     name: "bakulfantasilogo",
-    urlgambar: "./src/assets/logopartnersandsupplies/bakulfantasilogo.png",
+    urlgambar:new URL( "./src/assets/logopartnersandsupplies/bakulfantasilogo.png", import.meta.url).href,
   },
   {
     name: "dlkitchenlogo",
-    urlgambar: "./src/assets/logopartnersandsupplies/dlkitchenlogo.png",
+    urlgambar:new URL( "./src/assets/logopartnersandsupplies/dlkitchenlogo.png", import.meta.url).href,
   },
   {
     name: "basomawarlogo",
-    urlgambar: "./src/assets/logopartnersandsupplies/basomawarlogo.png",
+    urlgambar:new URL( "./src/assets/logopartnersandsupplies/basomawarlogo.png", import.meta.url).href,
   },
 ];
 </script>

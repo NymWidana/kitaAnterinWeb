@@ -19,50 +19,50 @@ const navs = [
 const specialTips = [
   {
     judul: "Anti sakit perut club1",
-    urlGambar: "./src/assets/specialtips01.png",
+    urlGambar:new URL( "./src/assets/specialtips01.png", import.meta.url).href,
   },
   {
     judul: "Anti sakit perut club2",
-    urlGambar: "./src/assets/tips1.png",
+    urlGambar:new URL( "./src/assets/tips1.png", import.meta.url).href,
   },
   {
     judul: "Anti sakit perut club3",
-    urlGambar: "./src/assets/tips2.png",
+    urlGambar:new URL( "./src/assets/tips2.png", import.meta.url).href,
   },
   {
     judul: "Anti sakit perut club4",
-    urlGambar: "./src/assets/tips3.png",
+    urlGambar:new URL( "./src/assets/tips3.png", import.meta.url).href,
   },
   {
     judul: "Anti sakit perut club",
-    urlGambar: "./src/assets/specialtips01.png",
+    urlGambar:new URL( "./src/assets/specialtips01.png", import.meta.url).href,
   },
 ];
 const currentST = ref(1);
 const tips = [
   {
     judul: "menyimpan daging agar tahan lama",
-    urlGambar: "./src/assets/tips1.png",
+    urlGambar:new URL( "./src/assets/tips1.png", import.meta.url).href,
   },
   {
     judul: "vegetarian snack from terong",
-    urlGambar: "./src/assets/tips2.png",
+    urlGambar:new URL( "./src/assets/tips2.png", import.meta.url).href,
   },
   {
     judul: "manfaat sawi putih untuk anak",
-    urlGambar: "./src/assets/tips3.png",
+    urlGambar:new URL( "./src/assets/tips3.png", import.meta.url).href,
   },
   {
     judul: "tip1 jadi kurus dalam 1 detik",
-    urlGambar: "./src/assets/tips1.png",
+    urlGambar:new URL( "./src/assets/tips1.png", import.meta.url).href,
   },
   {
     judul: "tip2 jadi kurus dalam 1 detik",
-    urlGambar: "./src/assets/tips2.png",
+    urlGambar:new URL( "./src/assets/tips2.png", import.meta.url).href,
   },
   {
     judul: "tip3 jadi kurus dalam 1 detik",
-    urlGambar: "./src/assets/tips3.png",
+    urlGambar:new URL( "./src/assets/tips3.png", import.meta.url).href,
   },
 ];
 const topTips = tips.slice(0, 3);
